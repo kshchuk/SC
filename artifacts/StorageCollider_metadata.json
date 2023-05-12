@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "collide",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getArray",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Task6.sol": "StorageCollider"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Task6.sol": {
+			"keccak256": "0x10ebc81d95bd3ea369224425e04bb880cbeda0569a071baaa2586d9e40f264ca",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://a921c78f2b97781f816a57b137e0103a89d31e67eea3604ae528f6a2d7458a2f",
+				"dweb:/ipfs/QmY4bvQ3xZtGy255T2MjAWokFN9N3Gn9HfoQfbzAx1jLc8"
+			]
+		}
+	},
+	"version": 1
+}
