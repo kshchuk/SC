@@ -7,11 +7,8 @@ require("@nomicfoundation/hardhat-verify");
 
 module.exports = {
   networks: {
-    mainnet: {
-        url: "https://sepolia.infura.io/v3/f393bf3868ca4747bbde606122d4ee9e",
-    }
-},
-
+    mainnet: { ... }
+  },
   etherscan: {
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
